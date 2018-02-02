@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta  name="viewport" content="width=device-width,initial-scale=1">
+  <title>RainbowTreasure</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header wrapper">
+    <div class="header__top">
+      <div class="logo">
+        <img src="img/logo.png" alt="" width="383" height="61">
+        <p>винтажная лавка</p>
+      </div>
+      <h1>Частная коллекция винтажных и антикварных колец</h1>
+      <button type="button" class="btn btn--call">Свяжитесь с нами</button>
+    </div>
+    <div class="header__bottom">
+      <nav class="menu-text">
+        <ul class="menu-text__list">
+          <li class="menu-text__item">
+            <a href="#" class="menu-text__link menu-text__link--active">О колекции</a>
+          </li>
+          <li class="menu-text__item">
+            <a href="#" class="menu-text__link">История бижутерии</a>
+          </li>
+          <li class="menu-text__item">
+            <a href="#" class="menu-text__link">История брендов</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="#" method="get" class="search">
+        <input type="text" name="text" class="search__input" placeholder="Поиск по сайту">
+        <button class="search__btn">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px">
+            <path fill-rule="evenodd" d="M15.533,15.532 C14.947,16.118 13.997,16.118 13.412,15.532 L10.764,12.885 C9.675,13.582 8.389,13.999 7.000,13.999 C3.134,13.999 -0.000,10.865 -0.000,6.999 C-0.000,3.133 3.134,-0.001 7.000,-0.001 C10.866,-0.001 14.000,3.133 14.000,6.999 C14.000,8.388 13.583,9.675 12.885,10.763 L15.533,13.411 C16.119,13.997 16.119,14.947 15.533,15.532 ZM7.000,1.999 C4.238,1.999 2.000,4.237 2.000,6.999 C2.000,9.760 4.238,11.999 7.000,11.999 C9.761,11.999 12.000,9.760 12.000,6.999 C12.000,4.237 9.761,1.999 7.000,1.999 Z"/>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">Элегантный винтаж на каждый день</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Эксклюзивный винтаж</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link menu__link--active">Коллекционный винтаж</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Роскошный винтаж</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Уникальный винтаж</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <nav class="breadcrumbs wrapper">
+      <a href="#" class="breadcrumbs__link">Главная</a>
+      <span class="breadcrumbs__link">Коллекционный винтаж</span>
+    </nav>
+    
+    <section class="catalog wrapper">
+      <div class="catalog__wrap">
+        <div class="sidebar">
+          <h3>Название бренда</h3>
+          <form action="#" method="get" class="sidebar__filter">
+            <input type="checkbox" name="Bibigi" id="Bibigi" class="sidebar__check">
+            <label for="Bibigi" class="sidebar__label">Bibigi</label>
+            <input type="checkbox" name="Faberge" id="Faberge" class="sidebar__check">
+            <label for="Faberge" class="sidebar__label">Faberge</label>
+            <input type="checkbox" name="Fashion" id="Fashion" class="sidebar__check">
+            <label for="Fashion" class="sidebar__label">Fashion</label>
+            <input type="checkbox" name="Fresh" id="Fresh" class="sidebar__check">
+            <label for="Fresh" class="sidebar__label">Fresh Jewelry</label>
+            <input type="checkbox" name="Gucci" id="Gucci" class="sidebar__check">
+            <label for="Gucci" class="sidebar__label">Gucci</label>
+            <input type="checkbox" name="Korloff" id="Korloff" class="sidebar__check">
+            <label for="Korloff" class="sidebar__label">Korloff</label>
+            <input type="checkbox" name="Lucia" id="Lucia" class="sidebar__check">
+            <label for="Lucia" class="sidebar__label">Lucia & Liza</label>
+            <input type="checkbox" name="Lurie" id="Lurie" class="sidebar__check">
+            <label for="Lurie" class="sidebar__label">Lurie Jewelry</label>
+            <input type="checkbox" name="Mayumi" id="Mayumi" class="sidebar__check">
+            <label for="Mayumi" class="sidebar__label">Mayumi</label>
+            <input type="checkbox" name="Nina" id="Nina" class="sidebar__check">
+            <label for="Nina" class="sidebar__label">Nina Ricci</label>
+            <input type="checkbox" name="Prytula" id="Prytula" class="sidebar__check">
+            <label for="Prytula" class="sidebar__label">Prytula Jewellery</label>
+            <input type="checkbox" name="Soul" id="Soul" class="sidebar__check" checked>
+            <label for="Soul" class="sidebar__label">Soul Diamonds</label>
+            <input type="checkbox" name="Tramontano" id="Tramontano" class="sidebar__check">
+            <label for="Tramontano" class="sidebar__label">Tramontano Gioielli</label>
+            <input type="checkbox" name="Versace" id="Versace" class="sidebar__check">
+            <label for="Versace" class="sidebar__label">Versace</label>
+            <input type="checkbox" name="Victor" id="Victor" class="sidebar__check">
+            <label for="Victor" class="sidebar__label">Victor Mayer</label>
+            <input type="checkbox" name="rus" id="rus" class="sidebar__check">
+            <label for="rus" class="sidebar__label">Россия</label>
+            <input type="checkbox" name="edem" id="edem" class="sidebar__check">
+            <label for="edem" class="sidebar__label">Эдем</label>
+          </form>
+        </div>
+        
+        <div class="catalog__block">
+          <h2>Коллекционный винтаж</h2>
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <img src="img/catalog-1.jpg" alt="Гвоздики винтажные" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Гвоздики винтажные розы</h3>
+                <p>Soul Diamonds</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-2.jpg" alt="Кольцо перстень винтажный" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Кольцо перстень винтажный стиль бижутерия</h3>
+                <p>H&M</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-3.jpg" alt="" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Винтажное трайбл кольцо</h3>
+                <p>Hand Made</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-1.jpg" alt="Гвоздики винтажные" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Гвоздики винтажные розы</h3>
+                <p>Soul Diamonds</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-2.jpg" alt="Кольцо перстень винтажный" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Кольцо перстень винтажный стиль бижутерия</h3>
+                <p>H&M</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-3.jpg" alt="" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Винтажное трайбл кольцо</h3>
+                <p>Hand Made</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-1.jpg" alt="Гвоздики винтажные" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Гвоздики винтажные розы</h3>
+                <p>Soul Diamonds</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-2.jpg" alt="Кольцо перстень винтажный" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Кольцо перстень винтажный стиль бижутерия</h3>
+                <p>H&M</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img src="img/catalog-3.jpg" alt="" width="300" height="400">
+              <div class="catalog__text">
+                <h3>Винтажное трайбл кольцо</h3>
+                <p>Hand Made</p>
+                <a href="#">Подробнее</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <nav class="pages wrapper">
+      <a href="#" class="pages__link pages__link--prev pages__link--disabled">&lt;</a>
+      <span class="pages__link pages__link--active">1</span>
+      <a href="#" class="pages__link">2</a>
+      <a href="#" class="pages__link">3</a>
+      <a href="#" class="pages__link">4</a>
+      <span class="pages__link pages__link--more">...</span>
+      <a href="#" class="pages__link">17</a>
+      <a href="#" class="pages__link pages__link--next">&gt;</a>
+    </nav>
+  </main>
+  
+  <footer class="footer wrapper">
+    <div class="footer__wrap">
+      <p>© 2018</p>
+      <p>Все права защищены.</p>
+    </div>
+  </footer>
+  
+  <div style="display: none;">
+    <div class="modal">
+      <header class="modal__header">
+        <h2>Свяжитесь с нами</h2>
+      </header>
+      <div class="modal__main">
+        <form action="#" method="post" class="form">
+          <label for="name" class="form__label">Имя:</label>
+          <input type="text" name="name" id="name" class="form__input">
+          <label for="phone" class="form__label">Телефон:</label>
+          <input type="tel" name="phone" id="phone" class="form__input">
+          <label for="email" class="form__label">E-mail:</label>
+          <input type="email" name="email" id="email" class="form__input">
+          <label for="text" class="form__label">Коментарий:</label>
+          <textarea name="text" id="text" class="form__text"></textarea>
+          <button type="submit" class="btn form__btn">Отправить</button>
+        </form>
+      </div>
+      <button type="button" class="modal__close arcticmodal-close"></button>
+    </div>
+  </div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+  
+  <!-- Modal window -->
+  <script>
+    $(".btn--call").click(function(){
+      $(function() {
+        $(".modal").arcticmodal();
+      });
+    });
+  </script>
+</body>
+</html>
