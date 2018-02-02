@@ -89,8 +89,44 @@
   </main>
   
   <footer class="footer wrapper">
-    <p>© 2018</p>
-    <p>Все права защищены.</p>
+    <div class="footer__wrap">
+      <p>© 2018</p>
+      <p>Все права защищены.</p>
+    </div>
   </footer>
+  
+  <div style="display: none;">
+    <div class="modal">
+      <header class="modal__header">
+        <h2>Свяжитесь с нами</h2>
+      </header>
+      <div class="modal__main">
+        <form action="#" method="post" class="form">
+          <label for="name" class="form__label">Имя:</label>
+          <input type="text" name="name" id="name" class="form__input">
+          <label for="phone" class="form__label">Телефон:</label>
+          <input type="tel" name="phone" id="phone" class="form__input">
+          <label for="email" class="form__label">E-mail:</label>
+          <input type="email" name="email" id="email" class="form__input">
+          <label for="text" class="form__label">Коментарий:</label>
+          <textarea name="text" id="text" class="form__text"></textarea>
+          <button type="submit" class="btn form__btn">Отправить</button>
+        </form>
+      </div>
+      <button type="button" class="modal__close arcticmodal-close"></button>
+    </div>
+  </div>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+  
+  <!-- Modal window -->
+  <script>
+    $(".btn--call").click(function(){
+      $(function() {
+        $(".modal").arcticmodal();
+      });
+    });
+  </script>
 </body>
 </html>
