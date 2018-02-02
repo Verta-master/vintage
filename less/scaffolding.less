@@ -4,6 +4,7 @@ body {
   line-height: 1.2;
   font-weight: 400;
   font-style: italic;
+  color: #48525a;
   background-color: #fcf2df;
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
@@ -29,6 +30,14 @@ html {
 
 figure {
   .reset();
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+  img {
+    display: block;
+  }
 }
 
 ul {
@@ -46,4 +55,17 @@ button {
 button {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0);
+}
+
+h2 {
+  color: #48525a;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-indent: 35px;
 }
